@@ -1,0 +1,54 @@
+pi = 3.14
+radius = float(input("Enter radius of circle = "))
+area = pi*radius*radius
+print(f"Area of circle = {area} square units")
+
+OR
+
+pi = 3.14
+radius = float(input("Enter radius of circle = "))
+area = pi*radius*radius
+print(f"Area of circle with radius {radius} units is = {area} square units")
+
+OR
+
+pi = 3.14
+r = float(input("Enter radius of circle = "))
+area = pi*r*r
+print ("Area of circle of radius {0} is = {1} square units ".format (r, area))
+
+
+OR
+
+radius=5
+pi=3.14
+
+area_circle=pi*radius**2
+
+print(area_circle)
+
+
+
+LIST
+
+
+cities=["Faisalabad","Islamabad","Karachi","Lahore","Quetta"]
+
+result=[93.4, 95, 98.7, 87.4, 83.02]
+
+score=[45, 70, 54, 90, 42]
+
+print(*cities)
+
+print(*result)
+
+print(*score)
+
+OR
+
+cities=["Faisalabad","Islamabad","Karachi","Lahore","Quetta"]
+result=[93.4, 95, 98.7, 87.4, 83.02]
+score=[45, 70, 54, 90, 42]
+print(f"""{cities}
+{result}
+{score}""")

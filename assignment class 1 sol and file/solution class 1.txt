@@ -1,0 +1,26 @@
+ 							CLASS 1
+name = "Mudassar Hanif"
+age = 29
+clas = "Artificial Intelligence"
+university = "PIAIC Faisalabad"
+print(f"Hello {name} your application is accepted for {clas} in {university}")
+							
+
+							OR
+
+
+Class 1
+(solution)
+
+name="your name"
+age=21
+className="AI"
+uni="your university name"
+
+message="""Hello {u_name} \nage {u_age}\nYour application is accepted for {u_class_name} at {u_uni}""".format(u_name=name, u_age=age, u_class_name=className, u_uni=uni)
+
+print(message)
+
+
+
+
